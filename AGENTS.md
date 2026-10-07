@@ -2,7 +2,7 @@
 
 ## 구조와 작업 범위
 
-이 작업 공간은 Minecraft 1.20.1 / Forge 47.4.16용 GregTech Leisure 인스턴스다. `minecraft/`는 실행 환경이며, 배포용 번역은 독립 저장소 `gregtech-leisure-english/`와 `gregtech-leisure-korean/`에서 관리한다. 영어 패키지의 현재 기준은 GTL1450이다. 다른 버전과의 호환성을 가정하지 않는다.
+이 작업 공간은 Minecraft 1.20.1 / Forge 47.4.16용 GregTech Leisure 인스턴스다. `minecraft/`는 실행 환경이며, 배포용 번역은 `gregtech-leisure-english`를 기반으로 포크한 통합 저장소 `gregtech-leisure-i18n/`에서 관리한다. 기존 영어·한국어 폴더는 보존용이며 새 번역 작업은 통합 저장소에서 진행한다. 영어 패키지의 현재 기준은 GTL1450이다. 다른 버전과의 호환성을 가정하지 않는다.
 
 - `config/ftbquests/quests/`: 퀘스트 SNBT와 언어 리소스.
 - `kubejs/startup_scripts/`, `client_scripts/`, `server_scripts/`: 등록, 표시, 서버 동작 스크립트.
@@ -10,9 +10,9 @@
 
 ## 번역 기준과 참고 자료
 
-- 원본: https://www.curseforge.com/minecraft/modpacks/gregtech-leisure
-- 영어 참고: https://github.com/Blucanillo/gregtech-leisure-english
-- 용어·키 참고: https://github.com/GregTechCEu/GregTech-Modern/tree/1.20.1/src/main/resources/assets/gtceu/lang
+- 원본: <https://www.curseforge.com/minecraft/modpacks/gregtech-leisure>
+- 영어 참고: <https://github.com/Blucanillo/gregtech-leisure-english>
+- 용어·키 참고: <https://github.com/GregTechCEu/GregTech-Modern/tree/1.20.1/src/main/resources/assets/gtceu/lang>
 
 원문은 `zh-cn`, 대상은 `en-us`, `ko-kr`이다. Minecraft 리소스 파일에서는 기존 규칙인 `zh_cn`, `en_us`, `ko_kr`를 사용한다. 영어 번역은 참고 자료이며 완전한 번역으로 간주하지 않는다. 중국어 원문 및 설치된 모드 버전과 대조한다. 최신 upstream 키가 현재 모드에 존재한다고 가정하지 않는다.
 
@@ -30,7 +30,7 @@ JavaScript는 주변 코드의 4칸 들여쓰기, 큰따옴표, 세미콜론 생
 
 ## 변경 기록과 로컬 커밋
 
-영어·한국어 변경은 각각 해당 저장소에서 작은 논리 단위로 자동 로컬 커밋한다. 매 커밋 전 전체 예정 변경과 `CHANGELOG.md`의 `[Unreleased]`를 확인한다. 의미 있는 변경은 Keep a Changelog 2.0.0의 관련 분류에 기록하고 중복을 피한다. `fix(i18n): add missing tooltip keys`처럼 간결한 메시지를 쓴다. `git diff --check`와 스테이징 파일 목록을 확인하고 지정 파일만 추가한다. push, 원격 게시, 이력 재작성은 수행하지 않는다.
+영어·한국어 변경은 모두 `gregtech-leisure-i18n/`에서 작은 논리 단위로 자동 로컬 커밋한다. 이 저장소는 기존 영어 저장소의 이력을 보존한 로컬 포크이며 GitHub 포크 생성은 아직 수행하지 않았다. 매 커밋 전 전체 예정 변경과 `CHANGELOG.md`의 `[Unreleased]`를 확인한다. 의미 있는 변경은 Keep a Changelog 2.0.0의 관련 분류에 기록하고 중복을 피한다. `fix(i18n): add missing tooltip keys`처럼 간결한 메시지를 쓴다. `git diff --check`와 스테이징 파일 목록을 확인하고 지정 파일만 추가한다. push, 원격 게시, 이력 재작성은 수행하지 않는다.
 
 ## 로컬 데이터 보호
 

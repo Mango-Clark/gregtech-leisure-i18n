@@ -1,6 +1,8 @@
-# GregTech Leisure English Translation
+# GregTech Leisure i18n
 
 For GTL1450.
+
+Local fork of [Blucanillo/gregtech-leisure-english](https://github.com/Blucanillo/gregtech-leisure-english), preserving its history and existing English package. Chinese (`zh_cn`) is the source; English (`en_us`) and Korean (`ko_kr`) are the targets. Korean runtime assets are not included yet. The installation instructions below describe the existing English package. See [AGENTS.md](AGENTS.md) for the shared workflow and [CHANGELOG.md](CHANGELOG.md) for changes. Commit small logical changes locally; do not push.
 
 An English translation package for an existing GregTech Leisure GTL1450 instance. It includes translated FTB Quests content, KubeJS item names and tooltips, and a companion resource pack.
 
