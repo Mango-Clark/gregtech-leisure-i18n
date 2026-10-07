@@ -4,6 +4,12 @@ For GTL1450.
 
 Local fork of [Blucanillo/gregtech-leisure-english](https://github.com/Blucanillo/gregtech-leisure-english), preserving its history and existing English package. Chinese (`zh_cn`) is the source; English (`en_us`) and Korean (`ko_kr`) are the targets. Korean runtime assets are not included yet. The installation instructions below describe the existing English package. See [AGENTS.md](AGENTS.md) for the shared workflow and [CHANGELOG.md](CHANGELOG.md) for changes. Commit small logical changes locally; do not push.
 
+> **IMPORTANT COMPATIBILITY NOTICE**
+>
+> **This translation ONLY works with modpack versions from [this Google Drive folder](https://drive.google.com/drive/folders/1Ga_w-TmDKNru0me1kAM_gXyedz_Ne4-x).**
+>
+> **Compatibility with the latest GTLCore and GTLAdditions versions is NOT guaranteed.**
+
 An English translation package for an existing GregTech Leisure GTL1450 instance. It includes translated FTB Quests content, KubeJS item names and tooltips, and a companion resource pack.
 
 This is an add-on package. Install the GTL1450 modpack separately before using it. Use a matching GTL1450 instance; compatibility with other modpack versions has not been established.
